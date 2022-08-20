@@ -1,0 +1,91 @@
+/* Definir estilos */
+
+* {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+  background: #0d0d0d;
+}
+
+
+.titulo2{
+  background: #F65A83;
+  color: white;
+  text-align: center;
+}
+
+.titulo1{
+  color: white;
+  text-align: left;
+  padding-left: 15px;
+}
+
+h2 {
+  color:  #F65A83;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: white;
+  margin: 1em;
+}
+
+strong {
+  color:   #4da6ff;
+}
+
+/* ? FORMATO HEXADECIMAL PARA REPRESENTAR COLORES
+La combinación de los primeros 10 elementos con las primeras 6 letras del alfabeto */
+
+/* ? FORMATO  rgb
+r r g g b b
+0 = menor
+255 = máximo
+*/
+
+#masse {
+  color: #ff8080;
+  font-size: 1.5em;
+}
+
+#shark {
+  max-width: 100%;
+}
+
+#borde {
+  border: 2px solid  #4da6ff;
+  padding: 10px;
+  margin: 20px;
+}
+
+.items {
+  color: white;
+  font-style: italic;
+  padding: 0.5em;
+}
+
+/* Las clases nos permiten reutilizar el estilo, con el identificador sólo lo puedo usar una vez */
+
+.datos {
+  background-color:   #1a1a1a;
+  margin: 2em;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+
+.img1 {
+  max-width: 200px;
+  border-radius: 1em;
+}
+
+.img2 {
+  max-width: 100%;
+  border-radius: 1em;
+}
+
+.interesantes {
+  padding-top: 0.5em;
+}

@@ -1,0 +1,204 @@
+header {
+  background-color: #F65A83;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.caja {
+  margin: 0 auto;
+}
+
+nav {
+  bottom: unset;
+  right: 0px;
+  left: 0;
+  position: absolute;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 500;
+}
+
+nav a:hover{
+  font-weight: bold;
+}
+
+.logo {
+  max-width: 200px;
+  margin: 10px;
+}
+
+.productos {
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .productos {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+}
+
+.productos h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Red Hat Mono', monospace;
+  padding: 10px;
+
+}
+
+.productos img {
+  max-width: 200px;
+}
+
+.productos li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  
+}
+
+.productos li:hover {
+  background-color: #f65a8434;
+  border-color: #f65a8434;
+}
+
+.productos li:active {
+  border-color:#F65A83;
+}
+
+.productos li:hover h2 {
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 940px) {
+  .productos li {
+    width: 30%;
+    border: 2px solid #F65A83;
+    border-radius: 1em;
+  /* ! Entre el padding y el margin */
+  }
+}
+
+.nota {
+  font-size: 20px;
+  font-family: 'Red Hat Mono', monospace;
+  padding: 10px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Red Hat Mono', monospace;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #0f0f0f;
+}
+
+footer img {
+  max-width: 200px;
+  padding-top: 20px;
+}
+
+.copyright {
+  color: white;
+  font-family: 'Red Hat Mono', monospace;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+}
+
+
+form {
+  margin: 50px 0;
+}
+
+form label, form legend, form p {
+  display: block;
+  font-size: 17px;
+  margin: 0 0 10px;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+.input-padron {  
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  width: 100%;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+option , select{
+  font-family: 'Red Hat Mono', monospace;
+}
+
+.check {
+  margin: 10px 0;
+}
+
+/* El ID tiene más peso,
+la CLASE le sigue,
+después la ETIQUETA.
+1. id
+2. Clase
+3. Etiqueta
+4. Configuraciones inline en html */
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #F65A83;
+  font-family: 'Red Hat Mono', monospace;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  /* Transiciones posibles en css */
+}
+
+.enviar:hover {
+  background-color: #f65a8496;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 40px 40px;
+}
+
+thead {
+  background-color: #F65A83;
+  color: white;
+  font-weight: bold;
+  font-family: 'Red Hat Mono', monospace;
+  border: 2px solid #0f0f0f;
+}
+
+td, th {
+  border: 2px solid #0f0f0f;
+  padding: 8px 15px;
+}
